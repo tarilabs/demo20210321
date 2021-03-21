@@ -54,7 +54,7 @@
           <expressionAlias>checkin</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>253.25</columnWidth>
+          <columnWidth>202.60000000000002</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -78,7 +78,7 @@
           <expressionAlias>checkout</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>253.25</columnWidth>
+          <columnWidth>202.60000000000002</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -104,7 +104,7 @@
             <string>guests</string>
           </genericTypes>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>253.25</columnWidth>
+          <columnWidth>202.60000000000002</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -125,7 +125,27 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>253.25</columnWidth>
+          <columnWidth>202.60000000000002</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>length of stay</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1616336553027</name>
+            <type>EXPECT</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>length of stay</name>
+            <className>length of stay</className>
+          </factIdentifier>
+          <className>days and time duration</className>
+          <factAlias>length of stay</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>202.60000000000002</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
@@ -194,6 +214,17 @@
             <expressionIdentifier>
               <name>Index</name>
               <type>OTHER</type>
+            </expressionIdentifier>
+            <rawValue class="string">1</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>length of stay</name>
+              <className>length of stay</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1616336553027</name>
+              <type>EXPECT</type>
             </expressionIdentifier>
             <rawValue class="string">1</rawValue>
           </FactMappingValue>
