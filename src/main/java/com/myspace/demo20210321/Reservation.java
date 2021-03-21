@@ -7,7 +7,11 @@ package com.myspace.demo20210321;
 public class Reservation implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
+	@com.fasterxml.jackson.annotation.JsonFormat(shape = com.fasterxml.jackson.annotation.JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
+    @com.fasterxml.jackson.databind.annotation.JsonSerialize(using = com.fasterxml.jackson.datatype.jsr310.ser.LocalDateSerializer.class)
 	private java.time.LocalDate checkin;
+	@com.fasterxml.jackson.annotation.JsonFormat(shape = com.fasterxml.jackson.annotation.JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
+    @com.fasterxml.jackson.databind.annotation.JsonSerialize(using = com.fasterxml.jackson.datatype.jsr310.ser.LocalDateSerializer.class)
 	private java.time.LocalDate checkout;
 
 	private java.util.List<java.lang.String> guests;
