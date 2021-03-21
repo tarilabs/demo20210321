@@ -9,6 +9,7 @@ public class Reservation implements java.io.Serializable {
 	static final long serialVersionUID = 1L;
 
 	private java.time.LocalDate checkin;
+
 	private java.time.LocalDate checkout;
 	private java.util.List<java.lang.String> guests;
 
